@@ -22,7 +22,7 @@
 
 </p>
 
-LyricLens connects to your Spotify account and displays the lyrics of whatever you're currently listening to — synced line-by-line in real time — directly on your Even Realities G2 glasses.
+LyricLens connects to your Spotify account and displays the lyrics of whatever you're currently listening to synced line-by-line in real time, directly on your Even Realities G2 glasses.
 
 <p align="center">
   <img src="https://img.shields.io/badge/display-576×200px-00cc66?style=flat-square" />
