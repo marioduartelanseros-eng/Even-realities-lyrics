@@ -146,9 +146,13 @@ npm install
 -   Add `http://127.0.0.1:5173/callback` as a Redirect URI\
 -   Copy your Client ID
 
-**4. Configure your Client ID**
+**4. Configure your keys in-app**
 
-Open `src/spotify.ts` and replace the `CLIENT_ID` value with your own.
+Use the login screen settings panel:
+- Spotify Client ID (required)
+- AudD API token (optional, enables ambient recognition)
+
+Click **Save Keys**.
 
 **5. Start the dev server**
 
@@ -168,6 +172,32 @@ Click login, authorize, and play a song.
 
 ------------------------------------------------------------------------
 
+## Even hub testing QR code
+
+Your GitHub Pages URL for this repo is:
+`https://marioduartelanseros-eng.github.io/Even-realities-Lyrics/`
+
+Open directly in Even Hub:
+https://marioduartelanseros-eng.github.io/Even-realities-Lyrics/
+
+<p align="left">
+  <a href="https://marioduartelanseros-eng.github.io/Even-realities-Lyrics/">
+    <img
+      src="https://api.qrserver.com/v1/create-qr-code/?size=320x320&data=https%3A%2F%2Fmarioduartelanseros-eng.github.io%2FEven-realities-Lyrics%2F"
+      alt="Even hub testing QR code"
+    />
+  </a>
+</p>
+
+If you want to test from local dev without deploying first, create a tunnel URL and run:
+
+```bash
+npx evenhub-simulator https://YOUR_TUNNEL_URL
+```
+
+Then use that same tunnel URL inside the QR image link above.
+
+------------------------------------------------------------------------
 ## 💍 Ring Controller
 
   Action    Function
