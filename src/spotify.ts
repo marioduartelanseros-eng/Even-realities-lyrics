@@ -106,7 +106,7 @@ export async function handleCallback(): Promise<boolean> {
         localStorage.setItem('spotify_refresh_token', data.refresh_token);
       }
       // Clean URL
-      window.history.replaceState({}, document.title, '/');
+      window.history.replaceState({}, document.title, '/Even-realities-Lyrics');
       return true;
     }
   } catch (err) {
