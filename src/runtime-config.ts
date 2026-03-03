@@ -6,7 +6,7 @@ const ENV = (import.meta as ImportMeta & {
 }).env;
 
 export function getSpotifyRedirectUri(): string {
-  return `${window.location.origin}/callback`;
+  return `${window.location.origin}/Even-realities-Lyrics`;
 }
 
 export function getStoredSpotifyClientId(): string {

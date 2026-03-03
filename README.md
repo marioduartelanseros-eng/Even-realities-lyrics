@@ -152,7 +152,7 @@ npm i -g evenhub-simulator
 
 ------------------------------------------------------------------------
 
-### Setup
+### Debugging Setup
 
 **1. Clone the repository**
 
@@ -171,7 +171,7 @@ npm install
 
 -   Go to Spotify Developer Dashboard\
 -   Create a new app\
--   Add `http://127.0.0.1:5173/callback` as a Redirect URI\
+-   For Redirect URI: Add `http://127.0.0.1:5173/` (if hosting locally for testing) \ `[Your github pages link]/Even-realities-Lyrics/` (if cloning the repo)
 -   Copy your Client ID
 
 **4. Configure your keys in-app**
